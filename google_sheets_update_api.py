@@ -7,6 +7,11 @@ from google_auth_oauthlib.flow import InstalledAppFlow
 from google.auth.transport.requests import Request
 import time
 
+"""
+This script can be used to batch update Google Sheets with the help of Sheet ID and a simple CSV.
+
+"""
+
 # If modifying these scopes, delete the file token.pickle.
 SCOPES = ['https://www.googleapis.com/auth/spreadsheets']
 CREDENTIALS = '' #Path to OAuth Credentials File

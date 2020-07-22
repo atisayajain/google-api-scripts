@@ -6,6 +6,12 @@ from google_auth_oauthlib.flow import InstalledAppFlow
 from google.auth.transport.requests import Request
 import csv
 
+"""
+This script can be used to batch create files in Google Drive with the help of a template original file.
+Post creation, the file can also be shared with specific users with their requried roles.
+
+"""
+
 # If modifying these scopes, delete the file token.pickle.
 SCOPES = ['https://www.googleapis.com/auth/drive']
 CREDENTIALS = '' #Path to OAuth Credentials File
